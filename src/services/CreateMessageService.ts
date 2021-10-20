@@ -10,7 +10,6 @@ class CreateMessageService {
         user: true
       }
     });
-    console.log(text, user_id);
 
     return message;
   }
